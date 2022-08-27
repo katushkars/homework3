@@ -64,6 +64,49 @@ public class Main {
 
         //Задание 6
         System.out.println ("Задание 6");
+        byte bananaAmount =5;
+        byte banana1Weight = 80;
+        int bananaWeight = bananaAmount*banana1Weight;
+        short milkAmount =200;
+        short milk100Weight = 105;
+        int milkWeight = milkAmount*milk100Weight/100;
+        byte iceCreamAmount =2;
+        byte iceCream1Weight = 100;
+        int iceCreamWeight = iceCreamAmount*iceCream1Weight;
+        byte eggAmount =4;
+        byte egg1Weight = 70;
+        int eggWeight = eggAmount*egg1Weight;
+        int allWeightGr = bananaWeight+milkWeight+iceCreamWeight+eggWeight;
+        double allWeightKg = allWeightGr/(double)1000;
+        System.out.println("Общий вес завтрака  " +allWeightGr+" грамм, или " +allWeightKg+ " килограмм");
+
+        //Задание 7
+        System.out.println ("Задание 7");
+        byte excessWeight = 7;
+        int excessWeightGram = excessWeight*1000;
+        int day250=excessWeightGram/250;
+        int day500=excessWeightGram/500;
+        int dayAverage = (day500+day250)/2;
+        System.out.println("Если сбрасывать по 250 гр, то спортсмену понадобиться  "+day250+ " дней");
+        System.out.println("Если сбрасывать по 500 гр, то спортсмену понадобиться  "+day500+ " дней");
+        System.out.println("В среднем спортсмену понадобиться  "+dayAverage+ " дней");
+
+        //Задание 8
+        System.out.println ("Задание 8");
+        int zpMasha = 67760;
+        int zpDenis = 83690;
+        int zpKristina = 76230;
+        double zpMashaNew = zpMasha*1.1;
+        double zpDenisNew = zpDenis*1.1;
+        double zpKristinaNew = zpKristina*1.1;
+        int year = 12;
+        double differenceZpMasha = (zpMashaNew-zpMasha)*year;
+        double differenceZpDenis = (zpDenisNew-zpDenis)*year;
+        double differenceZpKristina = (zpKristinaNew-zpKristina)*year;
+        System.out.println("Маша теперь получает  "+zpMashaNew+ " рублей. Годовой доход вырос на " +differenceZpMasha+ " рублей");
+        System.out.println("Денис теперь получает  "+zpDenisNew+ " рублей. Годовой доход вырос на " +differenceZpDenis+ " рублей");
+        System.out.println("Кристина теперь получает  "+zpKristinaNew+ " рублей. Годовой доход вырос на " +differenceZpKristina+ " рублей");
+
 
 
 
